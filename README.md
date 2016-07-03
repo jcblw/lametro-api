@@ -2,6 +2,8 @@
 
 This is a thin wrapper around the [LA Metro realtime api](http://developer.metro.net/introduction/realtime-api-overview/).
 
+[![Build Status](https://travis-ci.org/jcblw/lametro-api.svg?branch=master)](https://travis-ci.org/jcblw/lametro-api)
+
 > It seems as tho only bus info is included in this api :( for now.
 
 # Usage
