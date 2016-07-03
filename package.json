@@ -1,0 +1,31 @@
+{
+  "name": "lametro",
+  "version": "0.1.0",
+  "description": "A thin wrapper around the LA Metro realtime api",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcblw/lametro-api.git"
+  },
+  "keywords": [
+    "LA",
+    "los",
+    "angeles",
+    "metro",
+    "api",
+    "realtime"
+  ],
+  "author": "Jacob Lowe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcblw/la-metro/issues"
+  },
+  "homepage": "https://github.com/jcblw/la-metro#readme",
+  "dependencies": {
+    "got": "^6.3.0",
+    "standard": "^7.1.2"
+  }
+}
