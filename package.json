@@ -1,6 +1,6 @@
 {
   "name": "lametro",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A thin wrapper around the LA Metro realtime api",
   "main": "index.js",
   "scripts": {
