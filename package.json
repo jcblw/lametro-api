@@ -4,7 +4,8 @@
   "description": "A thin wrapper around the LA Metro realtime api",
   "main": "index.js",
   "scripts": {
-    "test": "standard . && nyc tape test.js"
+    "test": "standard . && nyc tape test.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "got": "^6.3.0"
   },
   "devDependencies": {
+    "coveralls": "^2.11.9",
     "nyc": "^6.6.1",
     "standard": "^7.1.2",
     "tape": "^4.6.0"
