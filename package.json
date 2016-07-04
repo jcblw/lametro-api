@@ -4,7 +4,7 @@
   "description": "A thin wrapper around the LA Metro realtime api",
   "main": "index.js",
   "scripts": {
-    "test": "standard ."
+    "test": "standard . && nyc tape test.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,11 @@
   },
   "homepage": "https://github.com/jcblw/la-metro#readme",
   "dependencies": {
-    "got": "^6.3.0",
-    "standard": "^7.1.2"
+    "got": "^6.3.0"
+  },
+  "devDependencies": {
+    "nyc": "^6.6.1",
+    "standard": "^7.1.2",
+    "tape": "^4.6.0"
   }
 }

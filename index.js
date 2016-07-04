@@ -52,6 +52,10 @@ const metro = ENDPOINTS.reduce((accum, endpoint) => {
     accum[agency][getEndpointMethodName(endpoint)] = request(endpoint, agencies[agency])
   })
   return accum
-}, {})
+}, {
+  request,
+  toTitleCase,
+  getEndpointMethodName
+})
 
 module.exports = metro
