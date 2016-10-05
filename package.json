@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "coveralls": "^2.11.9",
-    "nyc": "^6.6.1",
+    "nyc": "^8.3.0",
     "standard": "^8.3.0",
     "tape": "^4.6.0"
   }
