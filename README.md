@@ -1,5 +1,7 @@
 # LAMetro
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jcblw/lametro-api.svg)](https://greenkeeper.io/)
+
 This is a thin wrapper around the [LA Metro realtime api](http://developer.metro.net/introduction/realtime-api-overview/).
 
 [![Build Status](https://travis-ci.org/jcblw/lametro-api.svg?branch=master)](https://travis-ci.org/jcblw/lametro-api) [![Coverage Status](https://coveralls.io/repos/github/jcblw/lametro-api/badge.svg?branch=master)](https://coveralls.io/github/jcblw/lametro-api?branch=master)
