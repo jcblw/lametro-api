@@ -19,12 +19,12 @@
   },
   "homepage": "https://github.com/jcblw/la-metro#readme",
   "dependencies": {
-    "got": "^6.3.0"
+    "got": "^7.0.0"
   },
   "devDependencies": {
     "coveralls": "^2.11.9",
-    "nyc": "^6.6.1",
-    "standard": "^7.1.2",
+    "nyc": "^11.0.0",
+    "standard": "^10.0.0",
     "tape": "^4.6.0"
   }
 }
