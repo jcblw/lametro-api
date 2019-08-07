@@ -22,7 +22,7 @@
     "got": "^8.0.0"
   },
   "devDependencies": {
-    "coveralls": "^2.11.9",
+    "coveralls": "^3.0.6",
     "nyc": "^11.0.0",
     "standard": "^13.1.0",
     "tape": "^4.6.0"
